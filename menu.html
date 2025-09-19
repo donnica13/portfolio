@@ -1,0 +1,43 @@
+<!-- index.html -->
+<p>Short description of the project. What problem it solves, tech used.</p>
+<a class="link" href="#">View</a>
+</article>
+</div>
+</section>
+
+
+<section id="contact" class="container contact">
+<h3>Contact</h3>
+<p>Prefer email? <a href="mailto:you@example.com">you@example.com</a></p>
+<form class="contact-form" action="#" method="post">
+<label>
+<span>Name</span>
+<input type="text" name="name" required>
+</label>
+<label>
+<span>Email</span>
+<input type="email" name="email" required>
+</label>
+<label>
+<span>Message</span>
+<textarea name="message" rows="4" required></textarea>
+</label>
+<button class="btn" type="submit">Send</button>
+</form>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> Your Name — Built with ♥</p>
+</div>
+</footer>
+
+
+<script>
+// small script to set current year
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
